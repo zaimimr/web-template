@@ -8,6 +8,9 @@ dependencies:
   '@radix-ui/themes':
     specifier: ^3.0.2
     version: 3.0.2(@types/react-dom@18.2.25)(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)
+  '@valbuild/core':
+    specifier: ^0.60.24
+    version: 0.60.24
   '@valbuild/next':
     specifier: ^0.60.24
     version: 0.60.24(@types/react@18.2.79)(next@14.2.3)(react-dom@18.2.0)(react@18.2.0)
@@ -15,27 +18,27 @@ dependencies:
     specifier: 14.2.3
     version: 14.2.3(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0
   react-dom:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
   '@types/node':
-    specifier: ^20
+    specifier: ^20.12.7
     version: 20.12.7
   '@types/react':
-    specifier: ^18
+    specifier: ^18.2.79
     version: 18.2.79
   '@types/react-dom':
-    specifier: ^18
+    specifier: ^18.2.25
     version: 18.2.25
   '@valbuild/eslint-plugin':
-    specifier: ^0.60.24
-    version: 0.60.24(eslint@8.57.0)
+    specifier: ^0.60.25
+    version: 0.60.25(eslint@8.57.0)
   eslint:
-    specifier: ^8
+    specifier: ^8.57.0
     version: 8.57.0
   eslint-config-next:
     specifier: 14.2.3
@@ -62,16 +65,16 @@ devDependencies:
     specifier: ^15.2.2
     version: 15.2.2
   postcss:
-    specifier: ^8
+    specifier: ^8.4.38
     version: 8.4.38
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
   tailwindcss:
-    specifier: ^3.4.1
+    specifier: ^3.4.3
     version: 3.4.3
   typescript:
-    specifier: ^5
+    specifier: ^5.4.5
     version: 5.4.5
 
 packages:
@@ -1630,8 +1633,8 @@ packages:
       ts-toolbelt: 9.6.0
     dev: false
 
-  /@valbuild/eslint-plugin@0.60.24(eslint@8.57.0):
-    resolution: {integrity: sha512-sexhcxiNDvPorPW5VP7ox5+qq6vRfPfBhyLD+e7FeJUSveo9GhQ4Su+PmohlecLo0iygEqSRfRPlX3mvkNRlMA==}
+  /@valbuild/eslint-plugin@0.60.25(eslint@8.57.0):
+    resolution: {integrity: sha512-5SsTRhFz4naojrtWuxIW07PDstdoE2RzAZKrdfGvgqecQ/oTHHEdl0ihbObeTqizyfQygT6tCDj7KJGs+PKAhA==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       eslint: 6 || 7 || 8
@@ -2376,8 +2379,8 @@ packages:
     resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
     engines: {node: '>= 0.4'}
 
-  /es-iterator-helpers@1.0.18:
-    resolution: {integrity: sha512-scxAJaewsahbqTYrGKJihhViaM6DDZDDoucfvzNbK0pOren1g/daDQ3IAhzn+1G14rBG7w+i5N+qul60++zlKA==}
+  /es-iterator-helpers@1.0.19:
+    resolution: {integrity: sha512-zoMwbCcH5hwUkKJkT8kDIBZSz9I6mVG//+lDCinLCGov4+r7NIy0ld8o03M0cJxl2spVf6ESYVS6/gpIfq1FFw==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
@@ -2583,7 +2586,7 @@ packages:
       axobject-query: 3.2.1
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
-      es-iterator-helpers: 1.0.18
+      es-iterator-helpers: 1.0.19
       eslint: 8.57.0
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
@@ -2635,7 +2638,7 @@ packages:
       array.prototype.toreversed: 1.1.2
       array.prototype.tosorted: 1.1.3
       doctrine: 2.1.0
-      es-iterator-helpers: 1.0.18
+      es-iterator-helpers: 1.0.19
       eslint: 8.57.0
       estraverse: 5.3.0
       jsx-ast-utils: 3.3.5
