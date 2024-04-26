@@ -15,17 +15,17 @@
   },
   "dependencies": {
     "@radix-ui/themes": "^3.0.2",
-    "@valbuild/core": "^0.60.24",
-    "@valbuild/next": "^0.60.24",
+    "@valbuild/core": "^0.60.27",
+    "@valbuild/next": "^0.60.27",
     "next": "14.2.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
-    "@valbuild/eslint-plugin": "^0.60.25",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@valbuild/eslint-plugin": "^0.60.27",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.1.0",

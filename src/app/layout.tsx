@@ -28,7 +28,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ValProvider config={config} disableRefresh>
+        <ValProvider config={config}>
           <Theme appearance={theme}>
             <Container align="center">{children}</Container>
             {/* {isDevelopment() && <ThemePanel />} */}
