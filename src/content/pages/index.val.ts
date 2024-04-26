@@ -9,7 +9,7 @@ export const schema = s.object({
   description: s.string()
 });
 
-export default c.define('/index', schema, {
+export default c.define('/src/content/pages/index', schema, {
   theme: `dark`,
   metadataTitle: `Meta Template Title`,
   metadataDescription: `Meta Template Description.`,
